@@ -1,0 +1,27 @@
+/*Program to print the grade of student on the basis of marks obtain by the students.
+if marks>=90 then grade A+
+if marks>=80 then grade A
+if marks>=70 then grade B+
+if marks>=60 then grade B
+if marks>=50 then grade C
+if marks<50 then grade F
+*/
+#include<stdio.h>
+int main(){
+    int marks;
+    printf("Enter the Marks : ");
+    scanf("%d",&marks);
+    if (marks>=90)
+       printf("Grade A+",marks);
+    else if (marks>=80)
+            printf("Grade A\n",marks);
+    else if (marks>=70)
+            printf("Grade B+\n",marks);
+    else if (marks>=60)
+            printf("Grade B\n",marks);
+    else if (marks>=50)
+            printf("Grade C\n",marks);
+    else 
+        printf("Grade F\n");
+    return 0;
+}
