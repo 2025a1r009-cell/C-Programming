@@ -1,0 +1,13 @@
+// wap to print the multiplication of all the number from 1 to n
+#include<stdio.h>
+int main (){
+    int i,n,multi=1;
+    printf("enter the n value");
+    scanf("%d",&n);
+    for (i=1;i<=n;i++){
+        multi*=i;
+    }   
+        printf("multi = %d ",multi);    
+    
+    return 0;
+}
