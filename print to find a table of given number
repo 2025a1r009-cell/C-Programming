@@ -1,0 +1,14 @@
+// WAP to print to find a table of given number
+#include<stdio.h>
+int main(){
+    int i,num,range;
+    printf("enter the number of n :");
+    scanf("%d",&num);
+    printf("enter the range limit :");
+    scanf("%d",&range);
+    for (i=1;i<=range;++i){
+        printf("%d*%d = %d  ",num,i,num*i);
+       
+    }
+    return 0 ;
+}
