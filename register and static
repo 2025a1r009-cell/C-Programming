@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    int x;
+    register int y;
+    static int z;
+    printf(" value of x = %u\n",x);
+    printf(" value of y = %u\n",y);
+    printf(" value of z = %u\n",z);
+    return 0;
+}
