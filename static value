@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+   for(int i=0;i<10;i++){
+        int x=11;
+        static int z=11;
+        printf("x=%d \t y =%d\n",x,z);
+        x++;
+        z++;
+    }
+    return 0;
+}
+// static value
+#include<stdio.h>
+int main(){
+   for(int i=0;i<10;i++){
+        int x=11;
+        static int z=11;
+        printf("x=%d \t y =%d\n",x,z);
+    }
+    return 0;
+}
