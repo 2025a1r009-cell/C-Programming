@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int size,key;
+    scanf("%d",&size);
+    int stu[size];
+    for(int i=0;i<size;i++){
+        scanf("%d",&stu[i]);
+    }
+    scanf("%d",&key);
+    for(int i=0;i<size;i++){
+        if (stu[i]==key){
+        printf("Element found at position %d\n",i+1);
+            return 0;
+        }
+    }
+      printf("Element not found");
+    return 0;
+}
